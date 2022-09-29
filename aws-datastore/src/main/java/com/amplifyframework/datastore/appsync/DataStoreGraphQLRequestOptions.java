@@ -60,6 +60,6 @@ public final class DataStoreGraphQLRequestOptions implements GraphQLRequestOptio
     @NonNull
     @Override
     public LeafSerializationBehavior leafSerializationBehavior() {
-        return LeafSerializationBehavior.JUST_ID;
+        return LeafSerializationBehavior.ALL_FIELDS;
     }
 }
